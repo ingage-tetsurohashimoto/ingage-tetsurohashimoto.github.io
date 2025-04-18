@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TOP</title>
+<!-- Start of Re:lation Chat script -->
+<!-- End of Re:lation Chat script -->
+   <style>
+    .test-text {
+      font-size: 32px;
+    }
+  </style>
+<body>
+  <p class="test-text">QA Test(橋本)</p>
+</body>
+</html>
