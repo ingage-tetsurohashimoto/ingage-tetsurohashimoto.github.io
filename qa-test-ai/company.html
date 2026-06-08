@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>会社プロファイル（テスト用架空企業）</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
+            line-height: 1.7;
+            color: #333333;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 30px 20px;
+            background-color: #ffffff;
+        }
+        h1 {
+            font-size: 24px;
+            color: #005ac1;
+            border-bottom: 3px solid #005ac1;
+            padding-bottom: 10px;
+            margin-top: 0;
+            margin-bottom: 20px;
+        }
+        h2 {
+            font-size: 18px;
+            color: #333333;
+            border-left: 4px solid #005ac1;
+            padding-left: 10px;
+            margin-top: 35px;
+            margin-bottom: 15px;
+        }
+        p {
+            margin: 0 0 15px 0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+            margin-bottom: 25px;
+            font-size: 14px;
+        }
+        th, td {
+            border: 1px solid #dddddd;
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #f5f7fa;
+            font-weight: bold;
+            color: #444444;
+        }
+        ul {
+            margin: 0 0 20px 0;
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        strong {
+            color: #111111;
+        }
+        .lead-text {
+            font-size: 15px;
+            color: #555555;
+            margin-bottom: 25px;
+        }
+        .note {
+            font-size: 13px;
+            color: #666666;
+            font-style: italic;
+            margin-top: -15px;
+            margin-bottom: 25px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>会社プロファイル（テスト用架空企業）</h1>
+    <p class="lead-text">Re:lation AI機能の評価で使う問合せメール・ナレッジ・Webスナップショット等のテストデータは、本ファイルに記載した会社設定に基づいて作成する</p>
+
+    <h2>基本情報</h2>
+    <table>
+        <thead>
+            <tr>
+                <th style="width: 25%;">項目</th>
+                <th>内容</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>社名</strong></td>
+                <td>株式会社テスト医療機械店</td>
+            </tr>
+            <tr>
+                <td><strong>本社所在地</strong></td>
+                <td>大阪府大阪市某所</td>
+            </tr>
+            <tr>
+                <td><strong>拠点</strong></td>
+                <td>大阪本社 / 京都営業所 / 神戸営業所 / 大阪物流センター</td>
+            </tr>
+            <tr>
+                <td><strong>主な事業</strong></td>
+                <td>医療機器の卸売販売</td>
+            </tr>
+            <tr>
+                <td><strong>営業範囲</strong></td>
+                <td>近畿圏（大阪・京都・兵庫・奈良・滋賀・和歌山）</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>取扱製品カテゴリ</h2>
+    <table>
+        <thead>
+            <tr>
+                <th style="width: 25%;">カテゴリ</th>
+                <th style="width: 35%;">主な商品</th>
+                <th>性質</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>手術室関連</strong></td>
+                <td>注射針、ガーゼ、ドレッシング、不織布製品 等</td>
+                <td>消耗品中心、定期発注・緊急発注パターン</td>
+            </tr>
+            <tr>
+                <td><strong>在宅医療機器</strong></td>
+                <td>酸素濃縮器、吸入器、人工呼吸器、CPAP関連機器 等</td>
+                <td>機器中心、見積もり・納期・保守の問合せパターン</td>
+            </tr>
+        </tbody>
+    </table>
+    <p class="note">（※）初期は2カテゴリで絞る、必要に応じて拡張</p>
+
+    <h2>主要顧客</h2>
+    <p>200床以下の医療機関に絞る（200床超の大規模病院は対象外）</p>
+    <table>
+        <thead>
+            <tr>
+                <th style="width: 25%;">顧客タイプ</th>
+                <th>規模/特徴</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>中規模病院</strong></td>
+                <td>100〜200床</td>
+            </tr>
+            <tr>
+                <td><strong>小規模病院</strong></td>
+                <td>100床未満</td>
+            </tr>
+            <tr>
+                <td><strong>診療所 / クリニック</strong></td>
+                <td>無床〜19床</td>
+            </tr>
+            <tr>
+                <td><strong>専門クリニック</strong></td>
+                <td>在宅医療・呼吸器内科・整形外科 等</td>
+            </tr>
+            <tr>
+                <td><strong>検査センター</strong></td>
+                <td>臨床検査</td>
+            </tr>
+            <tr>
+                <td><strong>調剤薬局</strong></td>
+                <td>在宅医療連携</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Re:lation 活用シナリオ</h2>
+    <p>医療機器の問合せ・見積もり・納期確認・消耗品スポット注文 などを <strong>1か所に集約</strong>し、AIで一次対応・分類を効率化することを想定</p>
+    <p>主なAI機能の使い所:</p>
+    <ul>
+        <li><strong>返信AI(通常返信)</strong>: 顧客からの問合せメールに対する一次返信案を生成</li>
+        <li><strong>返信AI(マルチターン返信)</strong>: 仕様確認や見積もり調整など、複数往復のやりとりに対応</li>
+        <li><strong>ナレッジ作成AI</strong>: 過去の問合せ事例からFAQ/ナレッジ記事の下書きを生成</li>
+        <li><strong>AI要約</strong>: 長い問合せスレッドの要約</li>
+    </ul>
+
+    <h2>連絡先・実体情報</h2>
+    <p>本テストでは詳細な連絡先（電話番号、メールアドレス、郵便番号、地番）は<strong>設定しない</strong></p>
+    <p>必要になったタイミングで TODO 化（例: メール署名の差出人住所が必要になった等）</p>
+
+</body>
+</html>
